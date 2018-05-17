@@ -49,6 +49,7 @@ function getBranches(el) {
   const username = document.getElementById("username").value
   req.addEventListener("load", displayBranches)
   req.open("GET", `https://api.github.com/repos/${username}/${repository}/branches`)
+}
 =======
 function getThis() {
   return JSON.parse(this.responseText)
