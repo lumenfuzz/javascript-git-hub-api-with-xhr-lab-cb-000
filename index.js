@@ -28,11 +28,10 @@ function displayCommits() {
   document.getElementById("details").innerHTML = commitsList
 }
 
-/* --- testing function; used to "pry" into repository data
 function getThis() {
   return JSON.parse(this.responseText)
 }
- --- */
+
 
 function getBranches(el) {
   const repository = el.dataset.repository
