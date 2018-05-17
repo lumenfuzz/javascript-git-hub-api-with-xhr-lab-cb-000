@@ -10,7 +10,7 @@ function getRepositories() {
   const username = document.getElementById("username").value
   req.addEventListener("load", showRepositories);
   req.open("GET", `https://api.github.com/users/${username}/repos`)
-  req.send()
+
 }
 
 function getCommits(el) {
