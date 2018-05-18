@@ -14,6 +14,7 @@ function getRepositories() {
 }
 
 function getCommits(el) {
+  console.log(el);
   const repository = el.dataset.repository
   const req = new XMLHttpRequest()
   const username = document.getElementById("username").value
